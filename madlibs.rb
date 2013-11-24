@@ -5,7 +5,8 @@ story = "I had a ((an adjective)) sandwich for lunch today.  It dripped all
 swap_list = story.scan(/\(\((.*?)\)\)/)
 
 swap_list.each do |item|
-    story = story.sub("(("+item[0]+"))", "BUTT")
+    print "Enter " + item[0] + ":"
+    story = story.sub("(("+item[0]+"))", gets.chomp())
 end
     
 puts story
