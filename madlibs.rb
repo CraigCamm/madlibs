@@ -9,7 +9,7 @@ story = stories[gets.chomp().to_i - 1]
 
 swap_list = story.scan(/\(\((.*?)\)\)/)
 stored_answers = []
-is_hash = FALSE
+
 swap_list.each do |item|
     
     placeholder = item[0]
@@ -26,7 +26,7 @@ swap_list.each do |item|
         replacement = gets.chomp()
     end
 
-    story = story.sub("(("+placeholder+"))", replacement)
+    story = story.sub("(("+placeholder+"))", replacement.upcase)
 end
-    
+
 puts story
