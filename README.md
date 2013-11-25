@@ -1,18 +1,19 @@
 This repo is so I can play with Ruby. I've grabbed an example problem from the Ruby Quiz site to build a Madlib game.
 
 
-Step 1: Done
-Problem solved in madlibs.rb. 
-    -Run 'ruby madlibs.rb' to play.
+<dl>
+<dt>Step 1: Done</dt>
+<dd>Problem solved in madlibs.rb.</dd>
+<dd>-Run 'ruby madlibs.rb' to play.</dd>
 
-Step 2: In Progress
-Problem solved via a rails app. 
-    -Run 'rake db:seed'
+<dt>Step 2: In Progress</dt>
+<dd>Problem solved via a rails app.</dd>
+<dd>-Run 'rake db:seed'</dd>
 
 
-Step 3: 
-Unit Test
-
+<dt>Step 3:</dt>
+<dd>Unit Test</dd>
+</dl>
 
 
 
