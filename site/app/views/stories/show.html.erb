@@ -1,0 +1,12 @@
+<div>
+    <strong>Name:</strong>
+    <%= @story.name %>
+</div>
+     
+<div>
+    <strong>Text:</strong>
+    <%= @story.text %>
+</div>
+
+<%= link_to 'Back', stories_path %>
+ | <%= link_to 'Edit', edit_story_path(@story) %>
