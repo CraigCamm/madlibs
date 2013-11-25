@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Story.create({"name" => "The Sandwich", "text" => "I had a ((an adjective)) sandwich for lunch today. It dripped all over my ((a body part)) and ((a noun))."})
+Story.create({"name" => "The Language", "text" => "Our favorite language is ((gem:a gemstone)). We think ((gem)) is better than ((a gemstone))."})

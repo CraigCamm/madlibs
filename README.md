@@ -1,8 +1,23 @@
-This repo is so I can play with Ruby. I've grabbed a example problem from the Ruby Quiz site to build a Madlib game.
-
-http://rubyquiz.com/quiz28.html
+This repo is so I can play with Ruby. I've grabbed an example problem from the Ruby Quiz site to build a Madlib game.
 
 
+Step 1: Done
+Problem solved in madlibs.rb. 
+    -Run 'ruby madlibs.rb' to play.
+
+Step 2: In Progress
+Problem solved via a rails app. 
+    -Run 'rake db:seed'
+
+
+Step 3: 
+Unit Test
+
+
+
+
+
+Game Problem Description via http://rubyquiz.com/quiz28.html
 
 "This problem is to write a program that presents the user with that =
 favorite childhood game, Mad Libs. Don't worry if you have never played; =
